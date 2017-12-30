@@ -28,6 +28,8 @@ aws lambda create-function \
 --profile adminuser
 ```
 
+- TODO - Modify app.py to get DBInstand ARN progromatically
+- TODO - determine how best to tell when DB instance is stood up
 - TODO - Create db instance using boto3
 - TODO - Create Lamdba function using boto3
 - TODO - Automate updating lambda function on commit/code changes
